@@ -9,7 +9,7 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
+  tailwind,     
   nodejs,
   mongodb,
   git,
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "UI/UX Designer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "2D Animations Creator",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Video Editing",
     icon: creator,
   },
 ];
@@ -116,55 +116,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "UI/UX Designer",
+    company_name: "Drivezy India Travels Pvt Ltd",
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: "#383E56",
+    date: "June 2018 - December 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design Drivezy PWA(Progressive Web App) from Scratch.",
+      "Designed and developed websites with a focus on user experience and visual appeal using Figma and Adobe CC.",
+      "Communicated design ideas to clients and stakeholders using user flows, process flows, site maps and wireframes.",
+      "Utilized photography and video editing skills to create engaging digital content.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: " Senior UI/UX Designer",
+    company_name: "Bizryt Solutions Pvt Ltd",
+    icon: starbucks,
+    iconBg: "#E6DEDD",
+    date: "December 2021 - August 2022",
+    points: [
+      "Design Bizryt Website and PWA(Progressive Web App) from Scratch.",
+      "Lead and manage a team of graphic designers, providing direction and guidance on Bizryt design projects.",
+      "Collaborate with Customer Management staff to take customers feedback for product feature’s UX improvement.",
+      "Created wireframes, prototypes, and design mockups to effectively communicate design concepts.",
+      "Collaborate with Bizryt founding team for adding new features in product.",
+      "Communicated design ideas to founders and stakeholders using user flows, process flows and wireframes.",
+    ],
+  },
+  {
+    title: "Senior UI/UX Designer",
+    company_name: "Finnoto Solutions Pvt Ltd",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and optimized user interfaces for Finnoto's core fintech products, ensuring seamless user experience for accounts payables and receivables management.",
+      "Led end-to-end design for modules like AP , AR, GSTR 2B reconciliation, and Accounts Receivable Collection(ARC) Portal.",
+      "Revamped the company’s website to improve navigation, visual appeal, and responsiveness and designed Finnoto’s App and PWA for better customer engagement.",
+      "Led and managed a team of UI/UX designers, providing strategic direction and guidance in the creation and implementation of the Finnoto Design System.",
     ],
   },
 ];

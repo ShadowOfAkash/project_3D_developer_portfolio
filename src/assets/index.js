@@ -4,6 +4,10 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import collage from "./collage.png";
+import school from "./school.png";
+import mnnitlogo from "./mnnit-logo.png";
+import lpslogo from "./lps-logo.jpeg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -25,10 +29,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import drivezy from "./company/drivezy.png";
+import bizryt from "./company/bizryt.png";
+import finnoto from "./company/finnoto.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import myimage from "./my_image.png";
 
 export {
   logo,
@@ -56,7 +64,15 @@ export {
   shopify,
   starbucks,
   tesla,
+  drivezy,
+  bizryt,
   carrent,
   jobit,
   tripguide,
+  finnoto,
+  school,
+  collage,
+  mnnitlogo,
+  lpslogo,
+  myimage,
 };

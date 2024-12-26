@@ -29,7 +29,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
-const ComputersCanvas = () => {
+const ComputersCanvas = (props) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -54,24 +54,29 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
-    <Canvas
-      frameloop='demand'
-      shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-    >
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
-        <Computers isMobile={isMobile} />
-      </Suspense>
+    <img
+    src={props.image}
+    alt={`feedback_by`}
+    className='rounded-full object-cover h-[400px] w-[400px] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ...'
+  />
+    // <Canvas
+    //   frameloop='demand'
+    //   shadows
+    //   dpr={[1, 2]}
+    //   camera={{ position: [20, 3, 5], fov: 25 }}
+    //   gl={{ preserveDrawingBuffer: true }}
+    // >
+    //   <Suspense fallback={<CanvasLoader />}>
+    //     <OrbitControls
+    //       enableZoom={false}
+    //       maxPolarAngle={Math.PI / 2}
+    //       minPolarAngle={Math.PI / 2}
+    //     />
+    //     <Computers isMobile={isMobile} />
+    //   </Suspense>
 
-      <Preload all />
-    </Canvas>
+    //   <Preload all />
+    // </Canvas>
   );
 };
 

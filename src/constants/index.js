@@ -15,14 +15,17 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  drivezy,
+  finnoto,
   carrent,
   jobit,
   tripguide,
   threejs,
+  bizryt,
+  school,
+  collage,
+  mnnitlogo,
+  lpslogo,
 } from "../assets";
 
 export const navLinks = [
@@ -56,6 +59,41 @@ const services = [
   {
     title: "Video Editing",
     icon: creator,
+  },
+];
+const skillsnames = [
+  {
+    name: "UI/UX Designs",
+  },
+  {
+    name: "UI Development",
+  },
+  {
+    name: "2D Animations",
+  },
+  {
+    name: "Video Editing",
+  },
+  {
+    name: "Youtube Video Craetion",
+  },
+  {
+    name: "Marketing Reels",
+  },
+  {
+    name: "Banner",
+  },
+  {
+    name: "Posters",
+  },
+  {
+    name: "Prototyping",
+  },
+  {
+    name: "Wireframe",
+  },
+  {
+    name: "User Research",
   },
 ];
 
@@ -118,8 +156,8 @@ const experiences = [
   {
     title: "UI/UX Designer",
     company_name: "Drivezy India Travels Pvt Ltd",
-    icon: tesla,
-    iconBg: "#383E56",
+    icon: drivezy,
+    iconBg: "#ffeaea",
     date: "June 2018 - December 2021",
     points: [
       "Design Drivezy PWA(Progressive Web App) from Scratch.",
@@ -131,8 +169,8 @@ const experiences = [
   {
     title: " Senior UI/UX Designer",
     company_name: "Bizryt Solutions Pvt Ltd",
-    icon: starbucks,
-    iconBg: "#E6DEDD",
+    icon: bizryt,
+    iconBg: "#ffffff",
     date: "December 2021 - August 2022",
     points: [
       "Design Bizryt Website and PWA(Progressive Web App) from Scratch.",
@@ -146,8 +184,8 @@ const experiences = [
   {
     title: "Senior UI/UX Designer",
     company_name: "Finnoto Solutions Pvt Ltd",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: finnoto,
+    iconBg: "#ffffff",
     date: "September 2022 - Present",
     points: [
       "Designed and optimized user interfaces for Finnoto's core fintech products, ensuring seamless user experience for accounts payables and receivables management.",
@@ -160,28 +198,28 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    eduationalclass:
+      "10th",
+    name: "Lucknow Public School",
+    icon: school,
+    company: "Madhoganj, Hardoi",
+    image: lpslogo,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    eduationalclass:
+      "12th",
+    name: "Lucknow Public School",
+    icon: school,
+    company: "Madhoganj, Hardoi",
+    image: lpslogo,
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    eduationalclass:
+      "B.Tech",
+    name: "MNNIT Allahabad",
+    icon: collage,
+    company: "Prayagraj",
+    image: mnnitlogo,
   },
 ];
 
@@ -251,4 +289,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, skillsnames };

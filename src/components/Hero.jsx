@@ -4,7 +4,7 @@ import {
 } from "../assets";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import HeroImage from "./HeroImage";
 import Skills from "./Skills";
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
             and awsome UX for web applications
           </p>
         </div>
-        <ComputersCanvas image={myimage}/>
+        <HeroImage image={myimage}/>
         </div>
         </div>
         <Skills/>

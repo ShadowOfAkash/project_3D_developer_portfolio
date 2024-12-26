@@ -4,9 +4,9 @@ import { skillsnames } from "../constants";
 import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, name}) => (
-  <div  key={index} class="rounded bg-gradient-to-r from-indigo-500 via-sky-500 to-blue-500 p-[2px]">
-    <div class="flex rounded items-center justify-center bg-gray-800 ">
-      <div class="text-white px-4 py-2"> {name}</div>
+  <div  key={index} className="rounded bg-gradient-to-r from-indigo-500 via-sky-500 to-blue-500 p-[2px]">
+    <div className="flex rounded items-center justify-center bg-gray-800 ">
+      <div className="text-white px-4 py-2"> {name}</div>
     </div>
   </div>
   // <div key={index} className="bg-sky-500/[.06] border border-bg-sky-500 rounded px-4 py-2">
